@@ -1,0 +1,195 @@
+/* Estilos Gerais */
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(80, 0, 209);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Botão - verificar */
+
+.call {
+    margin: 30px auto;
+}
+
+.btn {
+    border: 3px solid #d40055;
+    padding: 10px 30px;
+    color: #d40055;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;  
+}
+
+
+.btn:hover {
+    color: rgb(80, 0, 209);
+    border-color: rgb(80, 0, 209);
+}
+
+
+/* Barra superior */
+
+.barra_endereco {
+    background-color: #fbc2ed;
+}
+
+.endereco {
+    max-width: 960px; /*Largura dos textos do menu, de acordo com o grid do Figma*/
+    margin: 0 auto; /*Alinha ao centro*/
+    display: flex; /*Para ficar um ao lado do outro*/
+    justify-content: space-between; /*Para alinhar com espaçamento ao meio*/
+    flex-wrap: wrap; /*Ocorre quebra para a próxima linha*/
+    padding-top: 10px;
+}
+
+.endereco p, .endereco a {
+    margin: 0 10px 10px 10px; /*Para centralizar na barrinha o "p" e o "a"*/
+}
+
+
+/* Barra-menu-marca */
+
+.menu-bg {
+    background-color: #f6dcec;
+}
+
+.menu {
+    max-width: 960px; /*Largura dos textos do menu, de acordo com o grid do Figma*/
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex; /*Fica um ao lado do outro.*/
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; /*Fica no centro de cima para baixo*/
+}
+
+.minha-marca {
+    margin: 0 20px;
+}
+
+.menu-nav ul {
+    display: flex; /*lis um ao lado do outro*/
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em; /*20px dividido por 16px*/
+    display: block; /*Por padrão o a é um display inline e queremos influenciar no padding dele*/
+    padding: 10px; /*Cria uma área de contato maior*/
+    color: rgb(80, 0, 209);
+}
+
+.menu-nav a:hover {
+    color: #d40055;
+}
+
+/* Arranjos e Buquês */
+
+.buques_precos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    margin: 0 10px 60px 10px;
+}
+
+.intertitulos {
+    margin-top: 60px ;
+    font-size: 20px;
+    color: #d40055;
+    text-align: center;
+}
+
+.intertitulos::after {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    background: #f6dcec;
+    margin: 40px auto;
+}
+
+.buques {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*Alinha as "imagens" no final do container*/
+    min-width: 260px; /*Para quebrar no Safari*/
+}
+
+.buques_icone { 
+    flex: 1 1 320px;
+}
+
+.buques_icone h2 {
+    font-size: 1em;
+    margin: 20px 60px;
+    flex-wrap: wrap;
+}
+
+.call { /* Para colocar o botão no meio */
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px; 
+}
+
+@media (max-width: 800px) {  /*Diminui o padding quando chega no mobile*/
+    .buques_precos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Footer */
+
+.footer {
+    max-width: 100%; 
+    justify-content: space-between;
+    display: flex;
+    background-color: #FF96C0;
+}
+
+.footer p {
+    margin: 20px;
+    align-items: center; 
+}
+
+.redes {
+    display: flex;
+    align-items: center; 
+}
+
+.redes img:nth-child(odd) {
+    margin-right: 30px;
+}

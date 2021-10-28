@@ -1,0 +1,285 @@
+/* Estilos Gerais */
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(80, 0, 209);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Botão - verificar */
+
+.call {
+    margin: 30px auto;
+}
+
+
+.btn:hover {
+    color: rgb(80, 0, 209);
+    border-color: rgb(80, 0, 209);
+}
+
+
+
+/* Barra superior */
+
+.barra_endereco {
+    background-color: #fbc2ed;
+}
+
+.endereco {
+    max-width: 960px; /*Largura dos textos do menu, de acordo com o grid do Figma*/
+    margin: 0 auto; /*Alinha ao centro*/
+    display: flex; /*Para ficar um ao lado do outro*/
+    justify-content: space-between; /*Para alinhar com espaçamento ao meio*/
+    flex-wrap: wrap; /*Ocorre quebra para a próxima linha*/
+    padding-top: 10px;
+}
+
+.endereco p, .endereco a {
+    margin: 0 10px 10px 10px; /*Para centralizar na barrinha o "p" e o "a"*/
+}
+
+
+/* Barra-menu-marca */
+
+.menu-bg {
+    background-color: #f6dcec;
+  
+}
+
+.menu {
+    max-width: 960px; /*Largura dos textos do menu, de acordo com o grid do Figma*/
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex; /*Fica um ao lado do outro.*/
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center; /*Fica no centro de cima para baixo*/
+}
+
+.minha-marca {
+    margin: 0 20px;
+}
+
+.menu-nav ul {
+    display: flex; /*lis um ao lado do outro*/
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em; /*20px dividido por 16px*/
+    display: block; /*Por padrão o a é um display inline e queremos influenciar no padding dele*/
+    padding: 10px; /*Cria uma área de contato maior*/
+    color: rgb(80, 0, 209);
+}
+
+.menu-nav a:hover {
+    color: #d40055;
+}
+
+/* Seção Imagens */
+
+.subtitulo1 {
+    position: absolute;
+    color: white;
+    margin-block-start: 3em;
+    margin-inline-start: 8.5em;
+    font-size: 30px;
+}
+
+.imagem_casal {
+    width: 100%;
+    height: 380px;
+    background: url("../img/casaflores.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 80px; 
+}
+
+/* Promoções */
+
+.promocoes {
+    max-width: 960px; 
+    margin: 60px auto; /*Deixei um espaçamento no top bottom*/
+}
+
+.promocoes h1 {
+    font-size: 1.5em;
+    margin: 0 10px 60px 10px;
+}
+.promocoes_home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*Alinha as "imagens" no final do container*/ 
+}
+
+.promocoes_icone h2 {
+    font-size: 1em;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+.promocoes_home .cinza {
+    margin: 0 10px;
+}
+
+/* Buquês */
+
+.buques_precos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    margin: 0 10px 60px 10px;
+}
+
+.buques {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /*Alinha as "imagens" no final do container*/
+    min-width: 260px; /*Para quebrar no Safari*/
+}
+
+.buques_icone { 
+    flex: 1 1 300px;
+}
+
+.buques_icone h2 {
+    font-size: 1em;
+    margin: 20px auto; 
+    text-align: center;
+}
+
+.cinza {
+    margin: 0 10px;
+}
+
+@media (max-width: 800px) {  /*Diminui o padding quando chega no mobile*/
+    .buques_precos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Depoimentos */
+
+.depoimentos {
+    max-width: 100%;
+    background-color: #f6dcec;
+    padding: 30px 0;
+}
+
+.depoimentos h2 {
+   text-align: center;
+    font-size: 1.5em; 
+    padding: 30px 0;
+    
+}
+
+.depo_cliente {
+    max-width: 960px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.depo_cliente p {
+    font-size: 1em;
+    margin: 20px 10px;  
+}
+
+.background {
+    background-color: #c5c2c3;
+    border: 2px solid #d40055;
+}
+
+cite {
+    font-style: italic;
+}
+
+/* call sobre e botão */
+
+.sobre p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.call { /* Para colocar o botão no meio */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-tres { /* VERIFICAR */
+    margin: 0 auto;
+}
+
+.btn, .btn-tres {
+    border: 3px solid #d40055;
+    padding: 10px 30px;
+    color: #d40055;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;  
+}
+
+.btn-tres:hover {
+    color: rgb(80, 0, 209);
+    border-color: rgb(80, 0, 209);
+}
+
+
+/* Footer */
+
+.footer {
+    max-width: 100%; 
+    justify-content: space-between;
+    display: flex;
+    background-color: #FF96C0;
+}
+
+.footer p {
+    margin: 20px;
+    align-items: center; 
+}
+
+.redes {
+    display: flex;
+    align-items: center; 
+}
+
+.redes img:nth-child(odd) {
+    margin-right: 30px;
+}
+
