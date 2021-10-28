@@ -12,14 +12,9 @@
 
 .estrutura { 
     display: flex;
-<<<<<<< HEAD:pg-inicio-insta/css/style.css
     max-width: 870px;
     margin: 0 auto; 
     flex-wrap: wrap;
-=======
-    max-width: 900px;
-    margin: 0 auto;    
->>>>>>> 4dae9b7dce8b20d86c12a821f2696803b5b40573:css/style.css
 }
 
 /* CELULAR */
@@ -36,7 +31,6 @@
 /* INSTA CONTINUE */
 
 .instagram-continue { 
-<<<<<<< HEAD:pg-inicio-insta/css/style.css
     margin: 0 auto;   
     padding-top: 80px;
 }
@@ -59,27 +53,6 @@
     max-height: 360px;
 }
 
-=======
-    display: grid;
-    margin: 0 auto;
-}
-
-.logo { 
-    height: 5rem;
-    position: relative;
-   
-    
-}
-
-.geral {
-    align-items: center;
-    background-color: #ffffff;
-    border: 1px solid lightgray;
-    padding: 50px 20px;
-    margin: 60px auto;
-}
-
->>>>>>> 4dae9b7dce8b20d86c12a821f2696803b5b40573:css/style.css
 .geral ul li {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +65,6 @@
     border-top: 1px solid #c3c3c3;
     border-bottom: 1px solid #c3c3c3;
     padding: 10px 10px;
-<<<<<<< HEAD:pg-inicio-insta/css/style.css
 }
 
 .foto-usuario {
@@ -101,18 +73,6 @@
     height: 40px;
     border-radius: 50%; 
     overflow: hidden; 
-=======
-    
-}
-
-.foto-usuario {
-    align-items: center; /*novo*/
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; /*acertei*/
-   /* margin-top: 20px; */
-    overflow: hidden; /*novo*/
->>>>>>> 4dae9b7dce8b20d86c12a821f2696803b5b40573:css/style.css
 }
 
 .foto-usuario:nth-child(1) {
@@ -133,7 +93,6 @@
     margin: 10px 5px;
     font-weight: bold;  
       
-<<<<<<< HEAD:pg-inicio-insta/css/style.css
 }
 
 .gerenciar {
@@ -152,27 +111,6 @@
 .not-account {
     color: rgb(160, 160, 160);
     text-align: center;
-=======
-}
-
-.gerenciar {
-    color: #0095f6;
-    text-align: center;
-    margin: 0 auto;
-    align-items: center;
-}
-
-/* NOT-ACCOUNT */
-
-.group-2 {
-   
-}
-
-.not-account {
-    color: rgb(160, 160, 160);
-    text-align: center;
-    margin: 0 auto;
->>>>>>> 4dae9b7dce8b20d86c12a821f2696803b5b40573:css/style.css
     align-items: center;
     background-color: #ffffff;
     border: 1px solid lightgray;
@@ -192,10 +130,6 @@
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;    
-}
-
-.get-app {
-   
 }
 
 .botoes {
@@ -235,19 +169,13 @@
 
 .link-gray {
     color: gray;
-<<<<<<< HEAD:pg-inicio-insta/css/style.css
 }
 
 /* FOOTER */
 
 .footer {
     padding-bottom: 20px;
-=======
-    text-align: center;
->>>>>>> 4dae9b7dce8b20d86c12a821f2696803b5b40573:css/style.css
 }
-
-/* FOOTER */
 
 .footer p {
     font-size: 12px;
