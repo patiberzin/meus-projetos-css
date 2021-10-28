@@ -84,9 +84,15 @@
     margin-top: 5px;
 }
 
-.usuario {
+.usuario1 {
     margin-left: 10px;
     margin-right: 100px;
+    margin-top: 1.3rem; 
+}
+
+.usuario2 {
+    margin-left: 10px;
+    margin-right: 113px;
     margin-top: 1.3rem; 
 }
 
