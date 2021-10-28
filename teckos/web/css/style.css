@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("../../img/roxo.jpg") no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 150%;
+}
+
+.container { 
+    /* novo */
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.titulo p {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lista li {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+.botoes {
+    display: flex;
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: #f5a000;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin: 0 15px;  
+}
+
+.btn2 {
+    padding: 10px 30px;
+    background-color: #f5a000;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;  
+}
+
+.call { 
+    margin: 30px auto;
+ }
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.imagem {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.imagem-produto {
+    flex: 1 1 175px;
+}
+
+.imagem-produto img {
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 10px;
+    float: right;
+}
+
+
+
