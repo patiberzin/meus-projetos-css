@@ -55,7 +55,6 @@
 
 .geral ul li {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .perfis1 {
