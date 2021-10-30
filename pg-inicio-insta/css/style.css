@@ -13,7 +13,7 @@
 .estrutura { 
     display: flex;
     max-width: 870px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 /* CELULAR */
@@ -97,8 +97,7 @@
     padding: 8px;
     border-radius: 5px;
     margin: 10px 5px;
-    font-weight: bold;  
-      
+    font-weight: bold;       
 }
 
 .gerenciar {
@@ -118,7 +117,6 @@
     color: rgb(160, 160, 160);
     text-align: center;
     align-items: center;
-    background-color: #ffffff;
     border: 1px solid lightgray;
     padding: 25px 20px;
 }
@@ -156,11 +154,9 @@
 
 .lista {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
     width: 100%;
     padding: 20px 20px;
 }
