@@ -71,7 +71,7 @@
     border-radius: 50%; 
 }
 
-.foto-usuario:nth-child(1) {
+.foto-usuario:nth-child(odd) {
     margin-top: 5px;
 }
 
