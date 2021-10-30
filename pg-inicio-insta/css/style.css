@@ -27,7 +27,7 @@
     height: 50rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .celular {
         display: none;
     }
@@ -42,9 +42,6 @@
 
 .logo { 
     height: 5rem;
-    position: relative;
-    align-items: center;
-    text-align: center;
     margin-left: 60px; 
 }
 
@@ -187,7 +184,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .lista {
         display: none;
     }
