@@ -1,13 +1,8 @@
-https://desenvolvimentoparaweb.com/css/4-layouts-comuns-css-grid/
-LAYOUTS COM GRID
-
-https://www.chiefofdesign.com.br/css-grid-layout-02/
-
 geral
 
 largura 1583 altura 1336
 
-cabeçalho
+cabeÃ§alho
 
 largura: 1583
 altura de 80
@@ -15,22 +10,8 @@ altura de 80
 primeira linha
 
 primeiro - altura 448 e largura 527
-Dentro: O título e um textinho com um link Saiba mais
+Dentro: O tÃ­tulo e um textinho com um link Saiba mais
 segundo - largura 793 altura 452 ou 448
 foto 2 gatos
 terceiro - largura 266 altura 183
 quarto - largura 266 altura 271
-
-segunda linha
-
-primeiro - largura 264 altura 400
-segundo - largura 264 altura 400
-terceiro - largura 530 altura 400
-quarto - largura 528 altura 400
-Dentro: O título e um textinho com um link Veja mais
-
-
-terceira linha
-
-primeiro - largura 792 altura 407
-segundo - largura 792 altura 407
