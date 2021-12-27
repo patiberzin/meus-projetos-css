@@ -119,3 +119,41 @@ body {
     height: 130px;
     margin-left: 10px;
 }
+
+/* CORPO */
+
+.main {
+    margin: 80px 20px;
+}
+
+.main h2 {
+    margin: 60px auto;
+    font-size: 45px;
+    text-align: center;
+}
+
+.main div img {
+    margin-bottom: 20px;
+}
+
+.main div h3 {
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 img, h3, a, p {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.paragrafo {
+    margin: 40px 40px;
+    margin: 0 auto;
+}
