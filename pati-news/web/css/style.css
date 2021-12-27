@@ -1,0 +1,123 @@
+/* Estilos Gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.lista1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #075987;
+}
+
+.lista1 ul {
+    display: flex;
+}
+
+.lista1 ul li+li {
+    margin-left: 10px;
+}
+
+.lista1 ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista1 ul li a img {
+    width: 25px;
+    height: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-family: 'Coustard', serif;
+    font-size: 75px;
+    padding: 15px;
+    margin: 0 20px;
+    color: #075987;
+    text-shadow: 2px 2px rgb(160, 160, 160);
+}
+
+.borda-banner {
+    border: 3px solid #333;
+    width: 728px;
+    height: 90px;
+    padding: 10px;
+    margin: 30px;
+}
+
+/* MENU NAV */
+
+.container {
+    background-color: #707070;
+    margin: 0 28px;
+    padding: 20px;
+}
+
+.menu-nav ul {
+    display: flex;
+    margin-left: 5px;
+}
+
+.menu-nav ul li+li {
+    margin-left: 15px;
+}
+
+.menu-nav ul li a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* BOTÃO */
+
+.botao {
+    background-color: #075987;
+    margin: 10px 35px;
+    padding: 5px;
+}
+
+.botao:hover {
+    background-color: #42b1f1;
+    color: #333;
+}
+
+.botao a {
+    color: white;
+}
+
+.flex2 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 0 28px;
+}
+
+.flex2 p a {
+    color: #075987;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.paragrafo {
+    margin-top: 15px;
+}
+
+.input {
+    width: 200px;
+    height: 30px;
+    margin-top: 8px;
+}
